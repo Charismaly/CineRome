@@ -3,11 +3,11 @@ package com.demos.cine.model;
 public class Article {
 	
 	private String reference;
-	private double prixHT;
 	private String designation;
+	private double prixHT;
 	private int qteStock;
 	
-	public Article(String reference, double prixHT, String designation, int qteStock) {
+	public Article(String reference, String designation, double prixHT, int qteStock) {
 		this.reference = reference;
 		this.prixHT = prixHT;
 		this.designation = designation;
